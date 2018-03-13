@@ -1,0 +1,56 @@
+body {
+    font-family : Quicksand;
+    margin : 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../medias/banniere-img.jpg);
+    height : 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    
+}
+
+h1 {
+    text-align: center
+}
+
+section {
+    background-image: url(../medias/image-fond.jpg);
+    height : 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 6px;
+
+}
+
+.vide {
+ height: 100px;
+}
+
+.container {
+    height : 300px;
+    background-color: rgba(0,0,0,0.8);
+    /*margin-top: 5em;*/
+}
+
+form {
+    padding : 4em;
+    font-family: quicksand;
+    color: white;
+}
+
+input {
+    margin-top : 2em;
+}
+
+#output {
+    border: 1pt white dashed;
+    margin-top : 2em;
+    line-height: 2em;
+    padding-left: 0.5em;
+}
